@@ -1,22 +1,16 @@
 # Project's title: News Translator
 
 ## Table of contents
-* Project Description
+* Description of the project
+* Technologies used
+* Mockup
 * How to install and run the project
 * How to use the project
+* Link URL to deployed app on GitHub
 * Credits
 
 ## Description of the project
 ### What does it do?
-
-### What technologies did we used?
-Project is created using: 
-
-* JavaScript
-* CSS3
-* HTML5
-* Bulma
-* jQuery 
 
 ### Features
 
@@ -27,8 +21,16 @@ Project is created using:
 
 
 ## Technologies used
+Project is created using: 
+
+* JavaScript
+* CSS3
+* HTML5
+* Bulma
+* jQuery 
 
 ## Mockup
+(Screenshot of the homepage)
 
 ## How to install and run the project
 
