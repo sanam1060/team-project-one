@@ -46,7 +46,7 @@ body {
   color: #E74C3C;
 }
 
-.mainli.active .section-content {
+.mainli.active .section-content, .mainli.active .section-content2 {
   opacity: 1;
   transform: scaleX(1);
   color: #E74C3C;
@@ -69,13 +69,14 @@ body {
   white-space: nowrap;
 }
 
-.mainli .section-content {
+.mainli .section-content, .mainli .section-content2 {
   display: flex;
   align-items: center;
   margin: 0;
   padding: 0;
   opacity: 0;
   transition: all 0.25s 0.1s ease-out;
+  margin-bottom:20px;
 } /*# sourceMappingURL=style.css.map */
 .article-wrap {
   display: flex;
@@ -84,7 +85,7 @@ body {
   align-items: center;
 }
 
-.article-title {
+.article-title, .article-title2 {
   color: #E74C3C;
   font-weight: 700;
   margin-bottom: 20px;
@@ -92,4 +93,17 @@ body {
   width: 100%;
 }
 
+.articles-wrap{
+  display: flex;
+  flex-direction:column;
+  overflow: scroll;
+    overflow-x: hidden;
+}
+.mainli.active .article-title2, .mainli.active .section-content2{
+  color:grey;
+}
 
+::-webkit-scrollbar {
+  width: 0;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
+}
