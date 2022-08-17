@@ -1,110 +1,107 @@
 <!DOCTYPE html>
-<html>
-    <head>
-      <!-- Title needs updating to app title --> 
-        <title>Title goes Here</title>
-        
-        <link rel="stylesheet" href="./assets/css/style.css">
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    </head>
-    <body>
-        <div class="topsection">
-          <div class="topsection-inner">
-            <input class="searchterm" type="text" value="bitcoin" placeholder="Enter Your Search Term">
-            <buton class="searchtermbutton">Search</buton>
+<html lang="en">
+  <head>
+    <title>News Translator</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+  </head>
+  <body>
+    <div class="topsection">
+      <div class="topsection-inner">
+        <!-- Search box -->
+        <input class="searchterm" type="text" value="bitcoin" placeholder="Enter Your Search Term">
 
-          </div>
-
-
+        <!-- Search button -->
+        <buton class="searchtermbutton">Search</buton>
+      </div>
+    </div>
+    
+    <ul class="mainul">
+      <!--First article-->
+      <li class="article_0 mainli">
+        <div class="section-title">
+          <h2>Article 1</h2>
         </div>
-        <ul class="mainul">
-          
-          <!--First article-->
-            <li class="article_0 mainli">
-              <div class="section-title">
-                <h2>Article 1</h2>
-              </div>
-              <div class="articles-wrap">
-                <div class="article-wrap">
-                  <div class="article-title"></div>
-                  <div class="section-content">
-                      <p></p>
-                  </div>
-                </div>
-                <div class="article-wrap2">
-                  <div class="article-title2"></div>
-                  <div class="section-content2">
-                      <p></p>
-                  </div>
-                </div>
-              </div>
-              </div>
-            </li>
-
-        <!--Second article-->
-            <li class="active article_1 mainli">
-              <div class="section-title">
-                <h2>Article 2</h2>
-              </div>
-              <div class="articles-wrap">
-                <div class="article-wrap">
-                  <div class="article-title"></div>
-                  <div class="section-content">
-                  </div>
-                </div>
-                <div class="article-wrap2">
-                  <div class="article-title2"></div>
-                  <div class="section-content2">
-                      <p></p>
-                  </div>
-                </div>
-                </div>
-                </div>
-            </li>
-
-            <!--Third article-->
-            <li class="article_2 mainli">
-              <div class="section-title">
-                <h2>Article 3</h2>
-              </div>
-              <div class="articles-wrap">
-                <div class="article-wrap">
-                  <div class="article-title"></div>
-                  <div class="section-content">
-                      <p></p>
-                  </div>
-                </div>
-                <div class="article-wrap2">
-                  <div class="article-title2"></div>
-                  <div class="section-content2">
-                      <p></p>
-                  </div>
-                </div>
-                </div>
-                </div>
-            </li>
-
-            <!--Fourth article-->
-            <li class="article_3 mainli">
-              <div class="section-title">
-                <h2>Article 4</h2>
-              </div>
-              <div class="articles-wrap">
-              <div class="article-wrap">
-                <div class="article-title"></div>
-                <div class="section-content">
-                    <p></p>
-                </div>
-              </div>
-              <div class="article-wrap2">
-                <div class="article-title2"></div>
-                <div class="section-content2">
-                    <p></p>
-                </div>
-              </div>
+        <div class="articles-wrap">
+          <div class="article-wrap">
+            <div class="article-title"></div>
+            <div class="section-content">
+              <p></p>
             </div>
-            </li>
-          </ul>
-        <script src="./assets/js/script.js"></script>
-    </body>
+          </div>
+          <div class="article-wrap2">
+            <div class="article-title2"></div>
+            <div class="section-content2">
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </li>
+      
+      <!--Second article-->
+      <li class="active article_1 mainli">
+        <div class="section-title">
+          <h2>Article 2</h2>
+        </div>
+        <div class="articles-wrap">
+          <div class="article-wrap">
+            <div class="article-title"></div>
+            <div class="section-content">
+              <p></p>
+            </div>
+          </div>
+          <div class="article-wrap2">
+            <div class="article-title2"></div>
+            <div class="section-content2">
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </li>
+      
+      <!--Third article-->
+      <li class="article_2 mainli">
+        <div class="section-title">
+          <h2>Article 3</h2>
+        </div>
+        <div class="articles-wrap">
+          <div class="article-wrap">
+            <div class="article-title"></div>
+            <div class="section-content">
+              <p></p>
+            </div>
+          </div>
+          <div class="article-wrap2">
+            <div class="article-title2"></div>
+            <div class="section-content2">
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </li>
+      
+      <!--Fourth article-->
+      <li class="article_3 mainli">
+        <div class="section-title">
+          <h2>Article 4</h2>
+        </div>
+        <div class="articles-wrap">
+          <div class="article-wrap">
+            <div class="article-title"></div>
+            <div class="section-content">
+              <p></p>
+            </div>
+          </div>
+          <div class="article-wrap2">
+            <div class="article-title2"></div>
+            <div class="section-content2">
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+    
+    <script src="./assets/js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  </body>
 </html>
