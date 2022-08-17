@@ -33,6 +33,13 @@ Project is created using:
 (Screenshot of the homepage)
 
 ## How to install and run the project
+Here are some guidelines for installing the project on your local machine:
+
+1. Clone or download the repository to your own local machine.
+
+2. Open the HTML file in your browser.
+
+3. Enjoy and don't hesitate to contribute! 
 
 ## How to use the project
 

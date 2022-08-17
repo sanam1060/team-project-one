@@ -1,5 +1,6 @@
 @import 'path/to/initial-variables';
 
+
 * {
   box-sizing: border-box;
   /*   border: 1px solid black; */
@@ -111,8 +112,33 @@ body {
 }
 
 .topsection-inner {
-  background-color: #E74C3C;;
+  background-color: #E74C3C;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  align-items:center;
+}
+
+#logo h1{
+  color: white;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.search-tools{
+  display: flex;
+  justify-content: flex-end;
   align-items: center;
+}
+
+#searchtermbutton{
+  margin: 20px 30px;
+}
+
+#searchtermbutton:hover{
+  background-color: #fff;
+  color: black;
+}
+
+#searchterm{
+  margin: 20px 20px;
+  width: 300px;
 }
