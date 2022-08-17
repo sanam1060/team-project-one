@@ -1,3 +1,4 @@
+@import 'path/to/initial-variables';
 
 * {
   box-sizing: border-box;
@@ -10,6 +11,7 @@ body {
   -moz-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizelegibility;
+  
 }
 
 .mainul {
@@ -106,4 +108,11 @@ body {
 ::-webkit-scrollbar {
   width: 0;  /* Remove scrollbar space */
   background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+.topsection-inner {
+  background-color: #E74C3C;;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
