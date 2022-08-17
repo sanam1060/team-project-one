@@ -10,9 +10,21 @@
 ### What does it do?
 
 ### What technologies did we used?
+Project is created using: 
 
+* JavaScript
+* CSS3
+* HTML5
+* Bulma
+* jQuery 
 
 ### Features
+
+* Uses two server-side APIs
+* Uses client-side storage to store persistent data.
+* Uses Bulma CSS framework
+* Accepts and responds to user input
+
 
 ## Technologies used
 
