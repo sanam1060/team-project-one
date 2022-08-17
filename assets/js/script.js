@@ -63,8 +63,8 @@ section.on("click", toggleAccordion);
 
 //search term fetch apis
 runFetch("bitcoin")
-$(".searchtermbutton").on("click",function(){
+$("#searchtermbutton").on("click",function(){
   
-    var searchTerm = $(".searchterm").val()
+    var searchTerm = $("#searchterm").val()
     runFetch(searchTerm)
 })
