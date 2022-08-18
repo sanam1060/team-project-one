@@ -4,24 +4,26 @@
     <title>News Translator</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Font Awesome kit -->
+    <script src="https://kit.fontawesome.com/b8f181d892.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   </head>
   <body>
     <div class="topsection">
       <div class="topsection-inner">
         <!-- Logo -->
-        <div class="content is-large m-4" id="logo">
+        <div class="content is-large mt-3 mb-3 ml-5" id="logo">
           <h1>[ News Translator ]</h1>
         </div>
-
         <div class="search-tools">
           <!-- Search box -->
-          <input id="searchterm" class="box is is-rounded" type="text" placeholder="What Are You Looking For?">
-          <!-- I WILL DELETE THIS COMMENT LINE LATER <input class="searchterm" type="text" value="bitcoin" placeholder="Enter Your Search Term"> -->
-  
+          <input id="searchterm" class="box is is-rounded" type="text" placeholder="What Are You Looking For?">  
           <!-- Search button -->
-          <button id="searchtermbutton" class="button is-hovered is-uppercase is-large is-black has-text-centered">Search</button>
-          <!-- I WILL DELETE THIS COMMENT LINE LATER <buton class="searchtermbutton">Search</buton> -->
+          <button class="button is-large" id="searchtermbutton">
+            <span class="icon is-large">
+              <i class="fas fa-search"></i>
+            </span>
+          </button>
         </div>
       </div>
     </div>

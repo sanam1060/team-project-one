@@ -1,13 +1,13 @@
 # Project's title: News Translator
 
-## Table of contents
-* Description of the project
-* Technologies used
-* Mockup
-* How to install and run the project
-* How to use the project
-* Link URL to deployed app on GitHub
-* Credits
+## **_Table of contents_**
+* [Description of the project](#Description of the project)
+* [Technologies used](#Technologies used)
+* [Mockup](#Mockup)
+* [How to install and run the project](#How to install and run the project)
+* [How to use the project](#How to use the project)
+* [Link URL to deployed app on GitHub](#Link-URL-to-deployed-app-on-GitHub)
+* [Credits](#Credits)
 
 ## Description of the project
 ### What does it do?
@@ -18,7 +18,6 @@
 * Uses client-side storage to store persistent data.
 * Uses Bulma CSS framework
 * Accepts and responds to user input
-
 
 ## Technologies used
 Project is created using: 
