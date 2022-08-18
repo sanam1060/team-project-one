@@ -29,7 +29,7 @@ Project is created using:
 * jQuery 
 
 ## Mockup
-(Screenshot of the homepage)
+![News-Translator-home-page](./assets/images/Screenshot%20-%20News%20Translator.png)
 
 ## How to install and run the project
 Here are some guidelines for installing the project on your local machine:
