@@ -1,11 +1,11 @@
 # Project's title: News Translator
 
 ## **_Table of contents_**
-* [Description of the project](#Description of the project)
-* [Technologies used](#Technologies used)
+* [Description of the project](#Description-of-the-project)
+* [Technologies used](#Technologies-used)
 * [Mockup](#Mockup)
-* [How to install and run the project](#How to install and run the project)
-* [How to use the project](#How to use the project)
+* [How to install and run the project](#How-to-install-and-run-the-project)
+* [How to use the project](#How-to-use-the-project)
 * [Link URL to deployed app on GitHub](#Link-URL-to-deployed-app-on-GitHub)
 * [Credits](#Credits)
 
