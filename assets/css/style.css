@@ -139,3 +139,50 @@ body {
   margin: 20px 20px;
   width: 300px;
 }
+
+/* Media query for smaller desktop screens and smaller */
+@media screen and (max-width: 980px) {
+
+
+  .topsection-inner{
+    max-width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #searchterm{
+    margin: 10px 0px;
+    width: 300px;
+  }
+
+  #searchtermbutton{
+    margin-left: 10px;
+  }
+
+  .mainul{
+    flex-direction: column;
+  }
+  
+  .mainli {
+    flex-direction: column;
+  }
+
+  .mainli .section-title h2 {
+    margin: 0;
+    transform: rotate(0deg);
+    white-space: nowrap;
+  }
+
+  .section-title{
+    width: 100%;
+  }
+}
+
+/* Media query for tablets and smaller */
+@media screen and (max-width: 768px) {
+}
+
+/* Media query for mobile phones and smaller */
+@media screen and (max-width: 575px) {
+}

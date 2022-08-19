@@ -26,7 +26,9 @@ Project is created using:
 * CSS3
 * HTML5
 * Bulma
-* jQuery 
+* jQuery
+* Font Awesome
+* Github
 
 ## Mockup
 ![News-Translator-home-page](./assets/images/Screenshot%20-%20News%20Translator.png)
@@ -40,12 +42,10 @@ Here are some guidelines for installing the project on your local machine:
 
 3. Enjoy and don't hesitate to contribute! 
 
-## How to use the project
-
 ## Link URL to deployed app on GitHub
 https://sanam1060.github.io/team-project-one/
 
-## Credits
+## Authors
 @jakeadelman
 @YZAHMED
 @sanam1060
