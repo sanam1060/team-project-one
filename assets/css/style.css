@@ -168,6 +168,8 @@ footer{
 
   .mainul{
     flex-direction: column;
+    min-height:auto;
+    max-height:max-content;
   }
   
   .mainli {
@@ -187,6 +189,19 @@ footer{
     margin-bottom: 10px;
   }
 
+  .mainli .article-title2, .mainli .section-content2{
+    color:grey;
+  }
+
+  .mainli .section-content, .mainli .section-content2{
+    opacity:1;
+  }
+  .mainli, .mainli:hover{
+    background:none;
+  }
+  .mainli .section-title{
+    color:#e53f2e;
+  }
 }
 
 /* Media query for tablets and smaller */
