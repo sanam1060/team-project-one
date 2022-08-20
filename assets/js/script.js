@@ -3,7 +3,7 @@ function runFetch(searchterm) {
   var url =
     "https://api.newscatcherapi.com/v2/search?q=" + searchterm.toString();
   fetch(url, {
-    headers: { "x-api-key": "C1WcsheJv-MBZTYHt7uzmC6lPuJIF_JqpSYI0oTbylw" },
+    headers: { "x-api-key": "hvaKSwt6G-Jraar-N6mYKQVx1TWHOOMsvx37eY7ht5U" },
   })
     .then((res) => {
       return res.json();
@@ -67,3 +67,4 @@ $("#searchtermbutton").on("click", function () {
   var searchTerm = $("#searchterm").val();
   runFetch(searchTerm);
 });
+

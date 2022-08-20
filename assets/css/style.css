@@ -140,6 +140,12 @@ body {
   width: 300px;
 }
 
+footer{
+  background-color: #E74C3C;
+  padding: 10px;
+}
+
+
 /* Media query for smaller desktop screens and smaller */
 @media screen and (max-width: 980px) {
 
@@ -174,9 +180,13 @@ body {
     white-space: nowrap;
   }
 
-  .section-title{
+  .section-title {
     width: 100%;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
+
 }
 
 /* Media query for tablets and smaller */
